@@ -10,6 +10,4 @@ public class AdminService {
     public void addUser(User user) {
         userRepository.saveUser(user);
     }
-
-    // Additional admin-specific methods can be added here as needed
 }
